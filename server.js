@@ -28,9 +28,9 @@ function createTemplate(data){
       <a href='/'>HOME</a>  \
     </div>   \
     <hr>   \
-    <h3>${heading}</h3>   \
-    <div>${date}</div>    \
-    <div>${content}</div>  \
+    <h3>$heading</h3>   \
+    <div>$date</div>    \
+    <div>$content</div>  \
     </body>   \
     </html> ";
     return htmlTemplate;
