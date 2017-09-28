@@ -1,10 +1,10 @@
 console.log('Loaded!');
 var a=10;
 var img1=document.getElementById("one");
-function mm(){
+function tt(){
     a=a+10;
     img1.style.height = "'"+a+"px"+"'";
 }
 img1.onclick=function(){
-    var interval=setInterval(mm,5);
+    var interval=setInterval(tt,5);
 };
