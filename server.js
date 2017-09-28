@@ -28,8 +28,8 @@ function createTemplate(data){
     </div>   
     <hr>   
     <h3>${heading}</h3>   
-    <div>$date</div>    
-    <div>$content</div>  
+    <div>${date}</div>    
+    <div>${content}</div>  
     </body>   
     </html> `;
     return htmlTemplate;
