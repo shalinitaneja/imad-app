@@ -1,3 +1,3 @@
 console.log('Loaded!');
-var img=document.getElementById("main");
-img.
+var img1=document.getElementById('main');
+
