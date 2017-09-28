@@ -9,9 +9,9 @@ var articleTwo={
     title:"tile for article-two",
     heading:"ARTICLE TWO",
     date:"sept 25, 2017",
-    content:"    <p>first line of article two</p>\
-    <p>second line of article two</p>\
-    <p>third  line of article two</p>"
+    content:`   <p>first line of article two</p>
+    <p>second line of article two</p>
+    <p>third  line of article two</p>`
     };
     
 function createTemplate(data){
