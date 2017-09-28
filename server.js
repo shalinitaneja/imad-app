@@ -21,7 +21,7 @@ function createTemplate(data){
     var data=data.date;
     var content=data.content;
     var htmlTemplate="<html> \
-    <head><title> {title} </title> \
+    <head><title>$title {title} </title> \
     </head>  \
     <body> \
     <div>  \
