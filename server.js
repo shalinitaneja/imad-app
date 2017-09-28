@@ -13,6 +13,14 @@ var articleTwo={
     <p>second line of article two</p>
     <p>third  line of article two</p>`
     };
+var articleThree={
+    title:"tile for article-three",
+    heading:"ARTICLE THREE",
+    date:"sept 25, 2018",
+    content:`   <p>first line of article three</p>
+    <p>second line of article three</p>
+    <p>third  line of article three</p>`
+    };
     
 function createTemplate(data){
     var title=data.title;
@@ -54,6 +62,9 @@ app.get('/ui/madi.png', function (req, res) {
 });
 app.get('/article-two', function (req, res) {
   res.send(createTemplate(articleTwo));
+});
+app.get('/article-three', function (req, res) {
+  res.send(createTemplate(articleThree));
 });
 
 
