@@ -19,19 +19,19 @@ function createTemplate(data){
     var heading=data.heading;
     var date=data.date;
     var content=data.content;
-    var htmlTemplate="<html> \
-    <head><title>${title} </title> \
-    </head>  \
-    <body> \
-    <div>  \
-      <a href='/'>HOME</a>  \
-    </div>   \
-    <hr>   \
-    <h3>${heading}</h3>   \
-    <div>$date</div>    \
-    <div>$content</div>  \
-    </body>   \
-    </html> ";
+    var htmlTemplate=`<html> 
+    <head><title>${title} </title> 
+    </head>  
+    <body> 
+    <div>  
+      <a href='/'>HOME</a>  
+    </div>   
+    <hr>   
+    <h3>${heading}</h3>   
+    <div>$date</div>    
+    <div>$content</div>  
+    </body>   
+    </html> `;
     return htmlTemplate;
 }
     
