@@ -9,16 +9,15 @@ var atricleTwo={
     title:"tile for article-two",
     heading:"ARTICLE TWO",
     date:"sept 25, 2017",
-    content:`
-    <p>first line of article two</p>
-    <p>second line of article two</p>
-    <p>third  line of article two</p>'
+    content:"    <p>first line of article two</p>\
+    <p>second line of article two</p>\
+    <p>third  line of article two</p>"
     };
     
 function createTemplate(data){
     var title=data.title;
     var heading=data.heading;
-    var data=data.date;
+    var date=data.date;
     var content=data.content;
     var htmlTemplate="<html> \
     <head><title>$title {title} </title> \
@@ -36,13 +35,7 @@ function createTemplate(data){
     return htmlTemplate;
 }
     
-    
-    
-    
-    `
-
-
-}
+  
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
