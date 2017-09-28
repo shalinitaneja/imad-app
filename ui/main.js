@@ -5,6 +5,6 @@ function mm(){
     a=a+10;
     img1.style.marginLeft=a+'px';
 }
-img1.onClick=function(){
+img1.onclick=function(){
     var interval=setInterval(mm,5);
 };
