@@ -6,4 +6,4 @@ function mm(){
 }
 img1.onClick(function(){
     var interval=setinterval(mm,5);
-})
+});
