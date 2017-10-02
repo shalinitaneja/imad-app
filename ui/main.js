@@ -13,7 +13,7 @@ img1.onclick=function(){
 }; */
 // for counter objects
 var button=document.getElementById('counter');
-button.onClick=function()
+button.onclick=function()
 {
   /*  // create a request object
     var request= new XMLHttpRequest();
