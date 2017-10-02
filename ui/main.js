@@ -24,9 +24,9 @@ button.onClick=function()
         {
             if(request.status===200)
             {
-            var counter=request.responseText;
+            var cont=request.responseText;
             var span=document.getElementById('count');
-            span.innerHTML=counter.toString();
+            span.innerHTML=cont.toString();
             }
         }
     };
