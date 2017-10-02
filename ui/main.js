@@ -12,7 +12,7 @@ img1.onclick=function(){
     var interval=setInterval(tt,5);
 }; */
 // for counter objects
-var button=documnt.getElementById('counter');
+var button=document.getElementById('counter');
 button.onClick=function()
 {
     // create a request object
@@ -26,7 +26,7 @@ button.onClick=function()
             var span=document.getElementById('count');
             span.innerHTML=counter.toString();
         }
-    };
+    }
 };
 //make the request
 request.open('GET','http://shalinitaneja1966.imad.hasura-app.io/counter',true);
