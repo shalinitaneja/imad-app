@@ -30,8 +30,9 @@ button.onClick=function()
             }
         }
     };
-};
+
 //make the request
 request.open('GET','http://shalinitaneja1966.imad.hasura-app.io/counter',true);
 request.send('Null');
+};
 
