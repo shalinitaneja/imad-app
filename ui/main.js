@@ -1,4 +1,4 @@
-console.log('Loaded!');
+/*console.log('Loaded!');
 var a=10;
 var img1=document.getElementById("madi");
 console.log(a);
@@ -10,12 +10,11 @@ function tt(){
 }
 img1.onclick=function(){
     var interval=setInterval(tt,5);
-};
+}; */
 // for counter objects
 var button=documnt.getElementById('counter');
 button.onClick=function()
 {
-    alert("hello");
     // create a request object
     var request= new XMLHttpRequest();
     // capture the response
