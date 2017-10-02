@@ -20,7 +20,7 @@ button.onClick=function()
     // capture the response
     request.onreadystatechange=function()
     {
-        if(request.readystate===XMLHttpRequest.done)
+        if(request.readystate===XMLHttpRequest.DONE)
         {
             var counter=request.responseText;
             var span=document.getElementById('count');
@@ -29,6 +29,6 @@ button.onClick=function()
     };
 };
 //make the request
-request.open('GET','http://http://shalinitaneja1966.imad.hasura-app.io/counter',true);
+request.open('GET','http://shalinitaneja1966.imad.hasura-app.io/counter',true);
 request.send('Null');
 
