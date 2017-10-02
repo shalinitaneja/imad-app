@@ -15,6 +15,7 @@ img1.onclick=function(){
 var button=documnt.getElementById('counter');
 button.onClick=function()
 {
+    alert("hello");
     // create a request object
     var request= new XMLHttpRequest();
     // capture the response
