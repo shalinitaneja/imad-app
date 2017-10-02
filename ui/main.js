@@ -15,7 +15,7 @@ img1.onclick=function(){
 var button=document.getElementById('counter');
 button.onclick=function()
 {
-  /*  // create a request object
+    // create a request object
     var request= new XMLHttpRequest();
     // capture the response
     request.onreadystatechange=function()
@@ -33,8 +33,8 @@ button.onclick=function()
 
 //make the request
 request.open('GET','http://shalinitaneja1966.imad.hasura-app.io/counter',true);
-request.send(null); */
-var span=document.getElementById('count');
-            span.innerHTML="hello";
+request.send(null); 
+//var span=document.getElementById('count');
+  //          span.innerHTML="hello";
 };
 
