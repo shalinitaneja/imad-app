@@ -54,7 +54,7 @@ submit.onclick=function()
     //        }
         }
     };
-var nameInput=document.getElelemtById('name');
+var nameInput=document.getElementById('name');
 var name=nameInput.value;
 //make the request
 request.open("GET","http://shalinitaneja1966.imad.hasura-app.io/submit-name?name="+name,true);
