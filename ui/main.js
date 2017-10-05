@@ -11,6 +11,7 @@ button.onclick=function()
         console.log("hi-1");
         if(request.readystate===XMLHttpRequest.DONE)
         {
+            console.log("hi-2");
             if(request.status===200)
             {
             var cont=request.responseText;
