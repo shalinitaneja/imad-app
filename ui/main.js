@@ -21,6 +21,6 @@ button.onclick=function()
 
 //make the request
 //request.open("GET","shalinitaneja1966.imad.hasura-app.io/counter",true);
-request.send(null); 
+//request.send(null); 
 };
 
