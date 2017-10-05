@@ -15,6 +15,7 @@ img1.onclick=function(){
 var button=document.getElementById('counter');
 button.onclick=function()
 {
+    console.log("hello");
     // create a request object
     var request= new XMLHttpRequest();
     // capture the response
