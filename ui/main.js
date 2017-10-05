@@ -12,7 +12,7 @@ img1.onclick=function(){
     var interval=setInterval(tt,5);
 }; */
 // for counter objects
-var button=document.getElementById('counter');
+var button=document.getElementById("counter");
 button.onclick=function()
 {
     console.log("hello");
@@ -26,7 +26,7 @@ button.onclick=function()
             if(request.status===200)
             {
             var cont=request.responseText;
-            var span=document.getElementById('count');
+            var span=document.getElementById("count");
             span.innerHTML=cont.toString();
             }
         }
