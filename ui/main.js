@@ -8,6 +8,7 @@ button.onclick=function()
     // capture the response
     request.onreadystatechange=function()
     {
+        console.log("hi-1");
         if(request.readystate===XMLHttpRequest.DONE)
         {
             if(request.status===200)
