@@ -34,7 +34,5 @@ button.onclick=function()
 //make the request
 request.open('GET','http://shalinitaneja1966.imad.hasura-app.io/counter',true);
 request.send(null); 
-//var span=document.getElementById('count');
-  //          span.innerHTML="hello";
 };
 
