@@ -9,8 +9,8 @@ button.onclick=function()
     request.onreadystatechange=function()
     {
         console.log("hi-1");
-        if(request.readystate===XMLHttpRequest.DONE)
-        {
+      //  if(request.readystate===XMLHttpRequest.DONE)
+     //   {
             console.log("hi-2");
             if(request.status===200)
             {
@@ -18,7 +18,7 @@ button.onclick=function()
             console.log("hi");
             var span=document.getElementById("count");
             span.innerHTML=cont.toString();
-            }
+    //        }
         }
     };
 
