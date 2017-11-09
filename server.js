@@ -43,7 +43,36 @@ function createTemplate(data){
     </html> `;
     return htmlTemplate;
 }
+ 
+ var mainOne ={
+     name:'saloni',
+     age:22,
+     id:'saloni@yahoo.co.in'
+ };
+app.get('/shalini',function(req,res){
+    res.send(create(mainOne));
+});   
+function create(data){
+    var name=data.name;
+    var age=data.age;
+    var id=data.id;
     
+    var htmlTemp=
+    `<html>
+    <body>
+    <h1>learning server side javascript
+    <hr color=red>
+    Name : ${name}
+    <br>
+    Age : ${age}
+    <br>
+    Mail-id : ${id}
+    <hr color=red>
+    </body>
+    
+    </html>`;
+    return htmlTemp;
+}
 app.get('/counter', function (req, res) {
   counter=counter+1;
   res.send(counter.toString());
