@@ -6,7 +6,7 @@ function moveRight()
  im.style.marginLeft=l+'px';
  
 }
-im.onClick=function()
+im.onclick=function()
 {
     alert('hello');
      im.style.marginLeft='200px';
