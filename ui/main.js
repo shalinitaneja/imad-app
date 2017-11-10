@@ -1,4 +1,4 @@
-var im=document.getElementById('mandi');
+var im=document.getElementById('madi');
 var l=0;
 function moveRight()
 {
