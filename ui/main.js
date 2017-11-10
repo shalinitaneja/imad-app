@@ -34,8 +34,8 @@ button.onclick=function()
       // if(request.readystate===XMLHttpRequest.DONE)
      //   {
             console.log("hi-2");
-            if(request.status===200)
-            {
+         //   if(request.status===200)
+         //   {
             var cont=request.responseText;
             console.log("hi");
             var span=document.getElementById("count");
@@ -45,7 +45,7 @@ button.onclick=function()
         //make the request
 request.open("GET","http://shalinitaneja1966.imad.hasura-app.io/counter",true);
 request.send(null); 
-};
+//};
 };
 
 var submit=document.getElementById('submit_btn');
