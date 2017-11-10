@@ -25,7 +25,7 @@ counter=counter+1;
 //alert(counter);
  var abc=document.getElementById('count');
 // abc.innerHtml=counter.toString();
-  abc.innerHtml="hello";
+  abc.innerHTML="hello";
 };
    
    /* console.log("hello");
