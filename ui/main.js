@@ -28,8 +28,8 @@ button.onclick=function()
     // create a request object
     var request= new XMLHttpRequest();
     // capture the response
-    request.onreadystatechange=function()
-    {
+ //   request.onreadystatechange=function()
+   // {
       //  console.log("hi-1");
       // if(request.readystate===XMLHttpRequest.DONE)
      //   {
@@ -40,7 +40,7 @@ button.onclick=function()
             console.log("hi");
             var span=document.getElementById("count");
             span.innerHTML=cont.toString();
-          }
+    //      }
        // }  
         //make the request
 request.open("GET","http://shalinitaneja1966.imad.hasura-app.io/counter",true);
