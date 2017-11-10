@@ -1,3 +1,17 @@
+var im=document.getElementById('mandi');
+var l=0;
+function moveRight()
+{
+ l=l+1;
+ im.style.marginLeft=l+'px';
+ 
+}
+im.onClick=dunction()
+{
+    var interval=setInterval(moveRight,50);
+}
+
+
 // for counter objects
 var button=document.getElementById('counter');
 button.onclick=function()
