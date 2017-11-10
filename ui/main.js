@@ -20,23 +20,19 @@ var counter=0;
 var button=document.getElementById('counter');
 button.onclick=function()
 {
- // alert('hello');
+
 counter=counter+1;
-//alert(counter);
  var abc=document.getElementById('count');
 abc.innerHTML=counter.toString();
-//  abc.innerHTML="hello";
-};
-   
-   /* console.log("hello");
+ console.log("hello");
     // create a request object
     var request= new XMLHttpRequest();
     // capture the response
     request.onreadystatechange=function()
     {
         console.log("hi-1");
-      //  if(request.readystate===XMLHttpRequest.DONE)
-     //   {
+       if(request.readystate===XMLHttpRequest.DONE)
+        {
             console.log("hi-2");
             if(request.status===200)
             {
@@ -44,12 +40,13 @@ abc.innerHTML=counter.toString();
             console.log("hi");
             var span=document.getElementById("count");
             span.innerHTML=cont.toString();
-    //        }
-        }  */
-//make the request
-//request.open("GET","http://shalinitaneja1966.imad.hasura-app.io/counter",true);
-//request.send(null); 
-//};
+          }
+        }  
+        //make the request
+request.open("GET","http://shalinitaneja1966.imad.hasura-app.io/counter",true);
+request.send(null); 
+};
+};
 
 var submit=document.getElementById('submit_btn');
 submit.onclick=function()
