@@ -19,7 +19,11 @@ im.onclick=function()
 var button=document.getElementById('counter');
 button.onclick=function()
 {
-    console.log("hello");
+   counter=counter+1;
+   var abc=document.getElementById('count');
+   abc.innerHtml=counter.toString();
+   
+   /* console.log("hello");
     // create a request object
     var request= new XMLHttpRequest();
     // capture the response
@@ -36,7 +40,7 @@ button.onclick=function()
             var span=document.getElementById("count");
             span.innerHTML=cont.toString();
     //        }
-        }
+        }  */
     };
 
 //make the request
