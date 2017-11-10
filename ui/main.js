@@ -22,9 +22,10 @@ button.onclick=function()
 {
  // alert('hello');
 counter=counter+1;
-alert(counter);
- // var abc=document.getElementById('count');
- // abc.innerHtml=counter.toString();
+//alert(counter);
+ var abc=document.getElementById('count');
+// abc.innerHtml=counter.toString();
+  abc.innerHtml="hello";
 };
    
    /* console.log("hello");
