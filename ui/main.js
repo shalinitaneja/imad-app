@@ -8,9 +8,10 @@ function moveRight()
 }
 im.onClick=function()
 {
+    alert('hello');
      im.style.marginLeft='200px';
  //   var interval=setInterval(moveRight,50);
-}
+};
 
 
 // for counter objects
