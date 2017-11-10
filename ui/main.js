@@ -24,8 +24,8 @@ button.onclick=function()
 counter=counter+1;
 //alert(counter);
  var abc=document.getElementById('count');
-// abc.innerHtml=counter.toString();
-  abc.innerHTML="hello";
+abc.innerHTML=counter.toString();
+//  abc.innerHTML="hello";
 };
    
    /* console.log("hello");
