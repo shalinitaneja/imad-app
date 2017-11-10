@@ -6,7 +6,7 @@ function moveRight()
  im.style.marginLeft=l+'px';
  
 }
-im.onClick=dunction()
+im.onClick=function()
 {
     var interval=setInterval(moveRight,50);
 }
