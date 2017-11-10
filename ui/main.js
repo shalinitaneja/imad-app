@@ -9,7 +9,7 @@ function moveRight()
 im.onclick=function()
 {
     //alert('hello');
-     im.style.marginLeft='200px';
+  im.style.marginLeft='200px';
   var interval=setInterval(moveRight,50);
 };
 
@@ -21,9 +21,9 @@ var button=document.getElementById("counter");
 button.onclick=function()
 {
   alert('hello');
-   counter=counter+1;
-   var abc=document.getElementById('count');
-   abc.innerHtml=counter.toString();
+  // counter=counter+1;
+   //var abc=document.getElementById('count');
+   //abc.innerHtml=counter.toString();
    
    /* console.log("hello");
     // create a request object
