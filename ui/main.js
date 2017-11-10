@@ -8,9 +8,9 @@ function moveRight()
 }
 im.onclick=function()
 {
-    alert('hello');
+    //alert('hello');
      im.style.marginLeft='200px';
- //   var interval=setInterval(moveRight,50);
+  var interval=setInterval(moveRight,50);
 };
 
 
