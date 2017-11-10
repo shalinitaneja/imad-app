@@ -20,6 +20,7 @@ var counter=0;
 var button=document.getElementById('counter');
 button.onclick=function()
 {
+  alert('hello');
    counter=counter+1;
    var abc=document.getElementById('count');
    abc.innerHtml=counter.toString();
