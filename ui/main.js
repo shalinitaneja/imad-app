@@ -17,11 +17,13 @@ im.onclick=function()
 
 // for counter objects
 var counter=0;
-var button=document.getElementById("counter");
+var button=document.getElementById('counter');
 button.onclick=function()
 {
   alert('hello');
-  // counter=counter+1;
+ };
+
+// counter=counter+1;
    //var abc=document.getElementById('count');
    //abc.innerHtml=counter.toString();
    
@@ -43,12 +45,10 @@ button.onclick=function()
             span.innerHTML=cont.toString();
     //        }
         }  */
-    };
-
 //make the request
-request.open("GET","http://shalinitaneja1966.imad.hasura-app.io/counter",true);
-request.send(null); 
-};
+//request.open("GET","http://shalinitaneja1966.imad.hasura-app.io/counter",true);
+//request.send(null); 
+//};
 
 var submit=document.getElementById('submit_btn');
 submit.onclick=function()
