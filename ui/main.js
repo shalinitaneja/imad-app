@@ -21,9 +21,9 @@ var button=document.getElementById('counter');
 button.onclick=function()
 {
 
-counter=counter+1;
- var abc=document.getElementById('count');
-abc.innerHTML=counter.toString();
+//counter=counter+1;
+// var abc=document.getElementById('count');
+//abc.innerHTML=counter.toString();
  console.log("hello");
     // create a request object
     var request= new XMLHttpRequest();
