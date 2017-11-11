@@ -49,7 +49,7 @@ request.send(null);
 };
 var nameInput=document.getElementById('name');
 //var name=nameInput.value;
-var names=["seema","vikas","mohiy"];
+var names=["seema","vikas","mohit","saloni","navya"];
 var submit=document.getElementById('submit_btn');
 submit.onclick=function()
 {
