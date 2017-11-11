@@ -47,25 +47,27 @@ request.open("GET","http://shalinitaneja1966.imad.hasura-app.io/counter",true);
 request.send(null); 
 //};
 };
-
+var nameInput=document.getElementById('name');
+//var name=nameInput.value;
+var names=["seema","vikas","mohiy"];
 var submit=document.getElementById('submit_btn');
 submit.onclick=function()
 {
   //  console.log("hello");
     // create a request object
-    var request= new XMLHttpRequest();
+  //  var request= new XMLHttpRequest();
     // capture the response
-    request.onreadystatechange=function()
-    {
+//    request.onreadystatechange=function()
+  //  {
        // console.log("hi-1");
       //  if(request.readystate===XMLHttpRequest.DONE)
      //   {
           //  console.log("hi-2");
-            if(request.status===200)
-            {
-            var names=request.responseText;
-            console.log(names);
-          names=JSON.parse(names);
+         //   if(request.status===200)
+           // {
+            //var names=request.responseText;
+        //    console.log(names);
+         // names=JSON.parse(names);
             var list="";
             for(var i=0;i<names.length;i++)
             {
@@ -74,12 +76,11 @@ submit.onclick=function()
               var ul=document.getElementById('nameslist');
               ul.innerHTML=list;
     //        }
-        }
-    };
-var nameInput=document.getElementById('name');
-var name=nameInput.value;
+  //      };
+ //   };
+
 //make the request
-request.open("GET","http://shalinitaneja1966.imad.hasura-app.io/submit-name?name="+name,true);
-request.send(null); 
+//request.open("GET","http://shalinitaneja1966.imad.hasura-app.io/submit-name?name="+name,true);
+//request.send(null); 
 };
 
