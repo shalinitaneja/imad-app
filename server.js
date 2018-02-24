@@ -5,7 +5,9 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-
+app.get('/shalini',function(req,res){
+    res.send("<h1>hello shalini</h1>");
+});   
 var articleTwo={
     title:"tile for article-two",
     heading:"ARTICLE TWO",
