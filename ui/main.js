@@ -31,7 +31,7 @@ button.onclick=function()
   request.onreadystatechange=function()
     {
         console.log("hello2");
-       if(request.readystate===XMLHttpRequest.DONE)
+       if(request.readyState===XMLHttpRequest.DONE)
         {
          console.log("hello3");
           if(request.status===200)
