@@ -33,6 +33,7 @@ button.onclick=function()
         console.log("hello2");
        if(request.readystate===XMLHttpRequest.DONE)
         {
+         console.log("hello3");
           if(request.status===200)
            {
             var cont=request.responseText;
