@@ -24,12 +24,13 @@ button.onclick=function()
 //counter=counter+1;
 // var abc=document.getElementById('count');
 //abc.innerHTML=counter.toString();
- console.log("hello");
+ console.log("hello1");
     // create a request object
     var request= new XMLHttpRequest();
     // capture the response
   request.onreadystatechange=function()
     {
+        console.log("hello2");
        if(request.readystate===XMLHttpRequest.DONE)
         {
           if(request.status===200)
