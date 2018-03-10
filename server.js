@@ -3,33 +3,6 @@ var morgan = require('morgan');
 var path = require('path');
 
 
-
-
-
-
-
-
-/*
-app.get('/testdb',function(req,res)
-{
-    res.send("hello");
-    
-   
-    pool.query('select * from users;',function(err,result)
-    {
-        if(err)
-        {
-            res.status(500).send(err.toString());
-        }
-        else
-         {
-          res.send(JSON.stringify(result));
-         }
-    });  
-} 
-);  
-*/
-
 var app = express();
 app.use(morgan('combined'));
 
@@ -55,8 +28,28 @@ var config=
 };
 
 
-//var pool =new Pool(config);
+var pool =new Pool(config);
 
+/*
+app.get('/testdb',function(req,res)
+{
+    res.send("hello");
+    
+   
+    pool.query('select * from users;',function(err,result)
+    {
+        if(err)
+        {
+            res.status(500).send(err.toString());
+        }
+        else
+         {
+          res.send(JSON.stringify(result));
+         }
+    });  
+} 
+);  
+*/
 
 var articleTwo={
     title:"tile for article-two",
