@@ -6,11 +6,11 @@ var path = require('path');
 var pool=require('pg').Pool;
 var config=
 {
-    user:'shalinitaneja1966',
-    database:'shalinitaneja1966',
-    host:'db.imad.hasura-app.io',
-    port:'80',
-    password:process.env.DB_PASSWORD
+    user: 'shalinitaneja1966',
+    database: 'shalinitaneja1966',
+    host: 'db.imad.hasura-app.io',
+    port: '5432',
+    password: process.env.DB_PASSWORD
 };
 
 var pool= new Pool(config);
