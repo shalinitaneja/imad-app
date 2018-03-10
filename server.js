@@ -1,6 +1,8 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
+var app = express();
+app.use(morgan('combined'));
 
 
 //for database connectivity
@@ -15,7 +17,7 @@ var config=
 };
 
 
-// var pool =new Pool(config);
+ var pool =new Pool(config);
 
 
 
@@ -45,8 +47,6 @@ app.get('/testdb',function(req,res)
 
 
 
-var app = express();
-app.use(morgan('combined'));
 
 app.get('/shalini',function(req,res){
     res.send("<font face=chiller color=red size=10><h1>hello shalini</h1></font>");
