@@ -17,7 +17,7 @@ var config=
 
  var pool =new Pool(config);
 
-/*
+
 app.get('/testdb',function(req,res)
 {
     pool.query('select * from users',function(err,result)
@@ -34,7 +34,7 @@ app.get('/testdb',function(req,res)
 });
 
 
-*/
+
 
 
 var app = express();
