@@ -2,6 +2,7 @@ var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 
+/*
 //for database connectivity
 var pool=require('pg').Pool;
 var config=
@@ -13,7 +14,7 @@ var config=
     password: process.env.DB_PASSWORD
 };
 
-/*
+
 var pool =new Pool(config);
 
  app.get('/testdb',function(req,res)
