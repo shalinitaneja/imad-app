@@ -18,7 +18,7 @@ var config=
 var pool =new Pool(config);
 
 
-/* 
+
 app.get('/testdb',function(req,res)
 {
     pool.query('select * from users',function(err,result)
@@ -29,13 +29,13 @@ app.get('/testdb',function(req,res)
         }
         else
          {
-          res.send(JSON.stringify(result.rows));
+          res.send(JSON.stringify(result));
          }
     });
 });
 
 
-*/
+
 
 
 var app = express();
