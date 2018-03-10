@@ -17,7 +17,7 @@ var config=
 
 // var pool =new Pool(config);
 
-app.get('dbtest',function(req,res)
+app.get('/dbtest',function(req,res)
 {
     res.send("hello");
 });
