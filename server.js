@@ -51,6 +51,16 @@ app.use(morgan('combined'));
 app.get('/shalini',function(req,res){
     res.send("<font face=chiller color=red size=10><h1>hello shalini</h1></font>");
 });   
+
+ app.get('/dbtest',function(req,res)
+{
+    res.send("hello");
+});
+
+
+
+
+
 var articleTwo={
     title:"tile for article-two",
     heading:"ARTICLE TWO",
