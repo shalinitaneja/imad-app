@@ -21,6 +21,9 @@ var config=
 {
     res.send("hello");
 });
+app.get('/dbtest1',function(req,res){
+    res.send("hello");
+});  
 
 
 /*
