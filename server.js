@@ -3,7 +3,7 @@ var morgan = require('morgan');
 var path = require('path');
 
 //for database connectivity
-var pool=require('pg').Pool;
+/*var pool=require('pg').Pool;
 var config=
 {
     user: 'shalinitaneja1966',
@@ -28,7 +28,7 @@ app.get('/testdb',function(req,res)
          }
     });
 });
-
+*/
 
 
 
