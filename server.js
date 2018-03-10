@@ -2,6 +2,26 @@ var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 
+//for database connectivity
+var pool=require('pg').Pool;
+var config=
+{
+    user:'shalinitaneja1966',
+    database:'shalinitaneja1966',
+    host:'db.imad.hasura-app.io',
+    port:'5432',
+    password:'db-shalinitaneja1966-88299'
+};
+
+var pool= new Pool(config);
+app.get('test-db',function(req,res)
+{
+    pool.query('select * from articles',function(err,result)
+    {
+        res.send(JSON.stringify(result));
+    });
+});
+
 var app = express();
 app.use(morgan('combined'));
 
