@@ -47,7 +47,7 @@ app.get('/testdb',function(req,res)
     });  
 } 
 );  
-*/
+
 
 var articleTwo={
     title:"tile for article-two",
