@@ -14,9 +14,9 @@ var config=
     password: process.env.DB_PASSWORD
 };
 
-
-var pool =new Pool(config);
 /*
+var pool =new Pool(config);
+
  app.get('/testdb',function(req,res)
 {
     pool.query('select * from users',function(err,result)
