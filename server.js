@@ -34,6 +34,17 @@ app.get('/testdb',function(req,res)
     res.send("hello");
     
    
+    pool.query('select * from users',function(err,result)
+    {
+        if(err)
+        {
+            res.status(500).send(err.toString());
+        }
+        else
+         {
+          res.send(JSON.stringify(result));
+         }
+    });  
 } 
 );  
 
