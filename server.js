@@ -10,7 +10,7 @@ var config=
     database:'shalinitaneja1966',
     host:'shalinitaneja.imad.hasura-app.io',
     port:'5432',
-    password:'db-shalinitaneja1966-88299'
+    password:process.env.DB_PASSWORD
 };
 
 var pool= new Pool(config);
