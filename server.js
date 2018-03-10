@@ -2,7 +2,7 @@ var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 
-/*
+
 //for database connectivity
 var pool=require('pg').Pool;
 var config=
@@ -16,7 +16,7 @@ var config=
 
 
 var pool =new Pool(config);
-
+/*
  app.get('/testdb',function(req,res)
 {
     pool.query('select * from users',function(err,result)
