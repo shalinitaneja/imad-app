@@ -17,13 +17,13 @@ var config=
 
 // var pool =new Pool(config);
 
-
+/*
 
 app.get('/testdb',function(req,res)
 {
     res.send("hello");
     
-  /*  pool.query('select * from users;',function(err,result)
+    pool.query('select * from users;',function(err,result)
     {
         if(err)
         {
@@ -33,9 +33,10 @@ app.get('/testdb',function(req,res)
          {
           res.send(JSON.stringify(result));
          }
-    }); */
+    }); 
 }
 );  
+*/
 
 
 
