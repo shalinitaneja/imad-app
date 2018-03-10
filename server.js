@@ -5,19 +5,7 @@ var path = require('path');
 
 
 
-//for database connectivity
-var pool=require('pg').Pool;
-var config=
-{
-    user: 'shalinitaneja1966',
-    database: 'shalinitaneja1966',
-    host: 'db.imad.hasura-app.io',
-    port: '5432',
-    password: process.env.DB_PASSWORD
-};
 
-
-// var pool =new Pool(config);
 
 
 
@@ -55,7 +43,19 @@ app.get('/shalini',function(req,res){
 });
 
 
+//for database connectivity
+var pool=require('pg').Pool;
+var config=
+{
+    user: 'shalinitaneja1966',
+    database: 'shalinitaneja1966',
+    host: 'db.imad.hasura-app.io',
+    port: '5432',
+    password: process.env.DB_PASSWORD
+};
 
+
+var pool =new Pool(config);
 
 
 var articleTwo={
