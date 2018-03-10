@@ -110,7 +110,7 @@ function create(data){
     return htmlTemp;
 }
 
-var pool= new Pool(config);
+
 
 
 
