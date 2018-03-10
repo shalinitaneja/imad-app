@@ -38,7 +38,6 @@ app.get('/testdb',function(req,res)
 
 
 
-*/
 
 
 var app = express();
