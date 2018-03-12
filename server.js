@@ -6,16 +6,6 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-app.get('/shalini',function(req,res){
-    res.send("<font face=chiller color=red size=10><h1>hello shalini</h1></font>");
-});   
-
- app.get('/dbtest',function(req,res)
-{
-    res.send("hello");
-});
-
-
 //for database connectivity
 var pool=require('pg').Pool;
 var config=
@@ -46,6 +36,18 @@ var config=
     }); */ 
 } 
 );  
+
+
+app.get('/shalini',function(req,res){
+    res.send("<font face=chiller color=red size=10><h1>hello shalini</h1></font>");
+});   
+
+ app.get('/dbtest',function(req,res)
+{
+    res.send("hello");
+});
+
+
 
 var articleTwo={
     title:"tile for article-two",
