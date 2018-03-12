@@ -23,17 +23,17 @@ var config=
     user: 'shalinitaneja1966',
     database: 'shalinitaneja1966',
     host: 'db.imad.hasura-app.io',
-    port: '80',
+    port: '5432',
     password: process.env.DB_PASSWORD
 };
 
 
-var pool =new Pool(config);
-/* app.get('/testdb',function(req,res)
+// var pool =new Pool(config);
+ app.get('/testdb',function(req,res)
 {
-    res.send("hello");
+    res.send(config);
     
-   
+   /*
     pool.query('select * from users',function(err,result)
     {
         if(err)
@@ -44,10 +44,9 @@ var pool =new Pool(config);
          {
           res.send(JSON.stringify(result));
          }
-    });  
+    }); */ 
 } 
 );  
-*/
 
 var articleTwo={
     title:"tile for article-two",
