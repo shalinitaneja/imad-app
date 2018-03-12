@@ -18,8 +18,8 @@ var config=
 };
 
 
-var pool =new Pool(config);
- app.get('/testdb',function(req,res)
+//var pool =new Pool(config);
+/* app.get('/testdb',function(req,res)
 {
     res.send(config);
     
@@ -33,9 +33,9 @@ var pool =new Pool(config);
          {
           res.send(JSON.stringify(result));
          }
-    }); */ 
+    }); 
 } 
-);  
+);  */
 
 
 app.get('/shalini',function(req,res){
