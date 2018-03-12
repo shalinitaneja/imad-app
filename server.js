@@ -18,7 +18,7 @@ app.get('/shalini',function(req,res){
 
 //for database connectivity
 var pool=require('pg').Pool;
-var config=
+/* var config=
 {
     user: 'shalinitaneja1966',
     database: 'shalinitaneja1966',
@@ -47,7 +47,7 @@ app.get('/testdb',function(req,res)
     });  
 } 
 );  
-
+*/
 
 var articleTwo={
     title:"tile for article-two",
