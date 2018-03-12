@@ -18,7 +18,7 @@ app.get('/shalini',function(req,res){
 
 //for database connectivity
 var pool=require('pg').Pool;
-/* var config=
+var config=
 {
     user: 'shalinitaneja1966',
     database: 'shalinitaneja1966',
@@ -27,7 +27,7 @@ var pool=require('pg').Pool;
     password: process.env.DB_PASSWORD
 };
 
-
+/*
 var pool =new Pool(config);
 app.get('/testdb',function(req,res)
 {
