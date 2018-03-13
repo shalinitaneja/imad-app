@@ -27,7 +27,7 @@ var config=
 
 
 
-var pool =new 'pg'.Pool(config);
+var pool =new Pool();
 /* app.get('/testdb',function(req,res)
 {
     res.send(config);
