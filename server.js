@@ -3,7 +3,7 @@ var morgan = require('morgan');
 var path = require('path');
 
 var pg = require('pg');
-var Pool = require('pg-pool')
+var Pool = require('pg-pool');
 
 //var pool = require('pg').Pool;
 
