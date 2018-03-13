@@ -2,7 +2,8 @@ var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 
-var pool = require('pg').Pool;
+var pool = require('pg');
+//var pool = require('pg').Pool;
 
 var app = express();
 app.use(morgan('combined'));
@@ -19,7 +20,8 @@ var config=
 };
 
 
-var pool =new Pool(config);
+var pool = new pg.Pool(config);
+//var pool =new Pool(config);
 /* app.get('/testdb',function(req,res)
 {
     res.send(config);
