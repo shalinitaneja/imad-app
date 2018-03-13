@@ -27,7 +27,7 @@ var config=
 
 
 
-pool =new Pool(config);
+var pool =new Pool(config);
 /* app.get('/testdb',function(req,res)
 {
     res.send(config);
