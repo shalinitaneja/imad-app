@@ -2,10 +2,10 @@ var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 
-//var pool = require('pg').Pool;
+var pool = require('pg').Pool;
 
 
-var Pool = require('pg-pool');
+//var Pool = require('pg-pool');
 
 // by default the pool uses the same
 // configuration as whatever `pg` version you have installed
