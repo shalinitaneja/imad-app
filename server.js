@@ -21,8 +21,11 @@ var config=
     user: 'shalinitaneja1966',
     database: 'shalinitaneja1966',
     host: 'db.imad.hasura-app.io',
-    port: '5432',
-    password: process.env.DB_PASSWORD
+    port: 5432,
+    password: process.env.DB_PASSWORD,
+    ssl: true,
+    max: 20, 
+    min: 4
 };
 
 
